@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <title>HOME</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+    <style>
+        body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+   
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .jumbotron {
+    background-color: #94ece8;
+    color: black;
+    padding: 100px 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+    .logo {
+    color: #55ced6;
+    font-size: 100px;
+
+  }
+  .logo-small {
+    color: #286581;
+    font-size: 50px;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #20c8d4;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 9px;
+    border-radius: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  .glyphicon-phone{
+    color:red;
+  }
+  .glyphicon-map-marker{
+    color:green;
+  }
+  .glyphicon-envelope{
+    color:navy;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 10px;
+  }
+   .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+        <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                       <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#myPage">Logo</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#about">ABOUT</a></li>
+                      <li><a href="#history">HISTORY</a></li>
+                      <li><a href="#Products">PRODUCTS</a></li>
+                      <li><a href="#clients">CLIENTS</a></li>
+                      <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+              <div class="jumbotron text-center">
+                    <h1>Nibodh Educare Private Limited</h1> 
+                    <p>We specialize in blablabla</p> 
+                    
+                  </div>
+<!------------------------------------- (About Section) ---------------------->
+
+                  <div id="about" class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-9">
+                            <h2>About Company Page</h2><br>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <br><button class="btn btn-info btn-lg">Get in Touch</button>
+                          </div>
+                          <div class="col-sm-3">
+                            <span class="glyphicon glyphicon-globe logo slideanim"></span>
+                          </div>
+                        </div>
+                      </div>
+                      
+
+<!------------------------------- (history Section) ------------------------------->
+
+                      <div class="container-fluid bg-grey" id="history">
+                            <div class="row">
+                              <div class="col-sm-4">
+                                <span class="glyphicon glyphicon-time logo slideanim"></span>
+                               
+                              </div>
+                              <div class="col-sm-8">
+                                <h2>HISTORY</h2><br>
+                                <h4><strong>How did we start?</strong> It all started with lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                   
+                                    <div class="col-sm-8">
+                                         <p><strong>What all brought us here:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                     
+                                            <span class="glyphicon glyphicon-hourglass logo slideanim"></span>
+                                          </div>
+                                  </div>
+                          </div>
+
+
+ <!-------------------------- (Products Section) ---------------------------------->
+
+
+<div id="Products" class="container-fluid text-center">
+        <h2>PRODUCTS</h2>
+        <h4>That we have produced</h4>
+        <br>
+        <div class="row slideanim">
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-pencil logo-small"></span>
+            <h4>Product 1</h4>
+            <p>Lorem ipsum dolor sit amet..</p>
+          </div>
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-th-large logo-small"></span>
+            <h4>Product 2</h4>
+            <p>Lorem ipsum dolor sit amet..</p>
+          </div>
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-list-alt logo-small"></span>
+            <h4>Product 3</h4>
+            <p>Lorem ipsum dolor sit amet..</p>
+          </div>
+        </div>
+        <br><br>
+        <div class="row slideanim">
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-tags logo-small"></span>
+            <h4>Product 4</h4>
+            <p>Lorem ipsum dolor sit amet..</p>
+          </div>
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-picture logo-small"></span>
+            <h4>Product 5</h4>
+            <p>Lorem ipsum dolor sit amet..</p>
+          </div>
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-plane logo-small"></span>
+            <h4 style="color:#303030;">Product 6</h4>
+            <p>Lorem ipsum dolor sit amet..</p>
+          </div>
+        </div>
+        <br><br>
+        <div class="row slideanim">
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-folder-open logo-small"></span>
+            <h4>Product 7</h4>
+            <p>Lorem ipsum dolor sit amet..</p>
+          </div>
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-phone-alt logo-small"></span>
+            <h4>Product 8</h4>
+            <p>Lorem ipsum dolor sit amet..</p>
+          </div>
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-tree-deciduous logo-small"></span>
+            <h4 style="color:#303030;">Product 9</h4>
+            <p>Lorem ipsum dolor sit amet..</p>
+          </div>
+        </div>
+      </div>
+
+
+      <!------------------------------------- (Clients Section) ------------------------------>
+<div id="clients" class="container-fluid text-center bg-grey">
+  <h2>OUR CLIENTS</h2><br>
+  <h4>What have great relationships with</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images\logo-yamaha.jpg" alt="Paris" width="400" height="300">
+      
+        <p>client 1</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images\th.jfif" alt="New York" width="400" height="300">
+        
+        <p>client 2</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images\th3.jfif" alt="San Francisco" width="400" height="300">
+        
+        <p>client 3</p>
+      </div>
+    </div>
+  </div><br>
+  </div>
+
+
+  <!--------------------------------- (Contact Section) ------------------------>
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT US</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span><a href="http://maps.google.com/?q=Nibodh educare private limited  , Aryan Plaza, Deepak Nagar 90 Feet Road, Bhayander West Thane Thane Mh 401101 In.">Nibodh Educare Private Limited</a>
+      </p>
+      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> nibodh@educare.com</p>
+    </div>
+    <form>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <input class="btn btn-default pull-right" type="submit" value="send">
+        </div>
+      </div>
+    </div>
+  </form>
+  </div>
+</div>
+
+</body>
+<script>
+ $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+  </script>
+
+</html>
